@@ -11,7 +11,7 @@ class CardController extends GetxController {
   List<WalletCard> userCards = <WalletCard>[
     WalletCard(
       cardSerial: '**** **** **** 3728',
-      owner: 'Austin Hammond',
+      owner: 'Saurav Mohanty',
       expireDate: '02/30',
     )
   ];

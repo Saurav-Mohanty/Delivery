@@ -3,8 +3,8 @@ import 'package:get/get.dart';
 
 class ProfileController extends GetxController {
   User currentUser = User(
-    username: 'Yousof',
-    email: 'yousofh255@gmail.com',
-    profile: 'assets/images/profile.png',
+    username: 'Saurav',
+    email: 'sauravmohanty3210@gmail.com',
+    profile: 'assets/images/logo.jpg',
   );
 }

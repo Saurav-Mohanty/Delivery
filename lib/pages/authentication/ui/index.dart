@@ -9,10 +9,10 @@ import 'package:food_delivery/core/utils/dimesions.dart';
 import 'package:food_delivery/pages/introduction/ui/widgets/my_text.dart';
 
 final List<Map<String, int>> codes = [
+  {'India': 91},
+  {'USA': 1},
   {'Iran': 98},
-  {'Afghanistan': 004},
-  {'Albania': 008},
-  {'Bahrain	': 048},
+  {'UK	': 018},
   {'Bangladesh': 880},
 ];
 
@@ -64,7 +64,6 @@ class AuthPage extends GetView<AuthController> {
                         width: Dimensions.screenWidth,
                         padding: EdgeInsets.symmetric(
                           horizontal: Dimensions.size30,
-                          vertical: Dimensions.size15,
                         ),
                         decoration: BoxDecoration(
                           border: Border.all(
@@ -87,7 +86,7 @@ class AuthPage extends GetView<AuthController> {
                                     child: MyText(
                                       text:
                                           '${item.keys.toString().split('(')[1].split(')')[0]} +${item.values}',
-                                      size: 20,
+                                      size: 15,
                                     ),
                                   );
                                 }).toList(),
